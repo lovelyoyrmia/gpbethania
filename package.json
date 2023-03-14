@@ -1,5 +1,5 @@
 {
-  "name": "@landing/006-next",
+  "name": "gp-bethania",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -37,7 +37,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "prettier": "^2.1.2",
-    "next-sitemap": "^1.2.4"
+    "next-sitemap": "^1.2.4",
+    "prettier": "^2.1.2"
   }
 }

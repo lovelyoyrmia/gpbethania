@@ -3,10 +3,10 @@ import { Box, Container, Grid, Button, Input, Heading, Text } from "theme-ui";
 
 import Image from "components/image";
 
-import img1 from "assets/partner-1-1.png";
-import img2 from "assets/partner-1-2.png";
-import img3 from "assets/partner-1-3.png";
-import gp1 from "assets/gp/gp1.JPG";
+// import img1 from "assets/partner-1-1.png";
+// import img2 from "assets/partner-1-2.png";
+// import img3 from "assets/partner-1-3.png";
+// import gp1 from "assets/gp/gp1.JPG";
 
 import bannerImg from "assets/banner-image-1-1.png";
 
@@ -41,7 +41,7 @@ const styles = {
     // backgroundColor: "#F6F8FB",
     // maxHeight: "50%",
     height: "740px",
-    backgroundImage: `url(${gp1})`,
+    backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/gpbethania-6b529.appspot.com/o/gp1.JPG?alt=media)`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     overflow: "hidden",

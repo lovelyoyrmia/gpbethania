@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Logo from "./logo";
 
 export default function SEO({
   description = "GP GPIB Bethania di DKI Jakarta",
@@ -47,6 +48,7 @@ export default function SEO({
       {metaData.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />
       ))}
+      <link rel="icon" href="/logogp.png" />
     </Head>
   );
 }

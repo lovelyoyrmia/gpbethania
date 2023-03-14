@@ -5,41 +5,41 @@ import Swiper from "react-id-swiper";
 
 import FeatureCard from "components/feature-card";
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
-import gp1 from "assets/gp/gp1.JPG";
-import gp2 from "assets/gp/gp2.JPG";
-import gp3 from "assets/gp/gp3.JPG";
-import gp4 from "assets/gp/gp4.JPG";
-import gp5 from "assets/gp/gp5.JPG";
 
 const FeatureData = [
   {
-    image: gp1,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/gpbethania-6b529.appspot.com/o/gp1.JPG?alt=media",
     title: "How to work with prototype design with adobe xd featuring tools",
     comments: "22 Comments",
     path: "/",
   },
   {
-    image: gp2,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/gpbethania-6b529.appspot.com/o/gp2.JPG?alt=media",
     title: "Create multiple artboard by using figma prototyping development",
     comments: "15 Comments",
     path: "/",
   },
   {
-    image: gp3,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/gpbethania-6b529.appspot.com/o/gp3.JPG?alt=media",
     title:
       "Convert your web layout theming easily with sketch zeplin extension",
     comments: "12 Comments",
     path: "/",
   },
   {
-    image: gp4,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/gpbethania-6b529.appspot.com/o/gp4.JPG?alt=media",
     title:
       "Convert your web layout theming easily with sketch zeplin extension",
     comments: "12 Comments",
     path: "/",
   },
   {
-    image: gp5,
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/gpbethania-6b529.appspot.com/o/gp5.JPG?alt=media",
     title:
       "Convert your web layout theming easily with sketch zeplin extension",
     comments: "12 Comments",
