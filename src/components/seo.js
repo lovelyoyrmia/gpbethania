@@ -1,11 +1,11 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 export default function SEO({
-  description = 'startup landing descriptions',
-  author = 'RedQ, Inc',
+  description = "GP GPIB Bethania di DKI Jakarta",
+  author = "GPIB Bethania Jakarta",
   meta,
-  title = 'startup landing title',
+  title = "GP GPIB Bethania Jakarta",
 }) {
   const metaData = [
     {
