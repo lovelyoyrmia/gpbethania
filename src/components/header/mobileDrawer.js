@@ -74,9 +74,12 @@ const MobileDrawer = () => {
           </Box>
 
           <Box sx={styles.menuFooter}>
-            <Button variant="primary" sx={styles.button}>
-              Download Jadwal Ibadah
-            </Button>
+            <Link
+              variant="button.primary"
+              sx={styles.button}
+              label="Download Jadwal Ibadah"
+              path="/jadwal/Jadwal_Gerakan_Pemuda_Juli_Des_2024.pdf"
+            />
           </Box>
         </Box>
       </Scrollbars>

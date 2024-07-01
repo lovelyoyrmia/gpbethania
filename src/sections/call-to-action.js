@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Container, Heading, Button } from "theme-ui";
 import BgShape from "assets/cta-shape-1.svg";
 import btnShape from "assets/cta-btn-shape-1.svg";
+import { Link } from "components/link";
 const CallToAction = () => {
   return (
     <Box sx={styles.wrapper}>
@@ -12,7 +13,12 @@ const CallToAction = () => {
             Gerakan Pemuda GPIB Bethania
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Button sx={styles.btn}>JADWAL IBADAH</Button>
+            <Link
+              path="/jadwal/Jadwal_Gerakan_Pemuda_Juli_Des_2024.pdf"
+              sx={styles.btn}
+              ml={2}
+              label="JADWAL IBADAH"
+            />
           </Box>
         </Box>
       </Container>
