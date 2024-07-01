@@ -35,7 +35,7 @@ export default function Header({ className }) {
           </Flex>
 
           <Link
-            path="/"
+            path="/jadwal/Jadwal_Gerakan_Pemuda_Juli_Des_2024.pdf"
             ml={2}
             label="Download Jadwal Ibadah"
             sx={styles.headerBtn}

@@ -6,11 +6,8 @@ import SEO from "components/seo";
 import Layout from "components/layout";
 
 import Banner from "sections/banner";
-import Pengurus from "sections/services";
-import Testimonials from "sections/testimonials";
-import CustomerSupport from "sections/customer-support";
+import Pengurus from "sections/pengurus";
 import Feature from "sections/feature";
-import VideoOne from "sections/video-one";
 import CallToAction from "sections/call-to-action";
 import BoostAgencies from "sections/boost-agencies";
 
